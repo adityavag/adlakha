@@ -22,7 +22,7 @@ export default function Home() {
       <main className='bg-[#151515] px-10 md:px-20 dark:bg-white'>
         <section className = "min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-            <a href="#"><h1 className='text-xl text-white dark:text-[#151515]'>aryanadlakha</h1></a>
+            <a href="#"><h1 className='text-xl text-md text-white dark:text-indigo-800'>aryanadlakha</h1></a>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill 
@@ -34,21 +34,21 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-7xl py-2 text-[#ffffff] font-medium dark:text-indigo-800'>Aryan Adlakha</h2>
             <h3 className='text-3xl text-white py-2 dark:text-indigo-800'>ML Enthusiast</h3>
-            <p className='text-md py-5 leading-8 text-white dark:text-indigo-800'>
+            <p className='text-md py-5 leading-8 text-white dark:text-indigo-800  '>
               Computer Science Undergraduate from SRMIST, India. 
               <br />Currently in the most explorative phase of my life.
             </p>
           </div>
-          <div className='text-2xl flex justify-center gap-14 text-gray-600'>
-            <a href = "#"><FiLinkedin color = "white" /></a>
-            <a href = "#"><FiGithub color = "white" /></a>
-            <a href = "#"><FiInstagram color = "white" /></a>
+          <div className='text-2xl flex justify-center gap-14 text-gray-600 dark:indigo-800'>
+            <a href = "https://www.linkedin.com/in/aryan-adlakha-305a04223/"><FiLinkedin color = "cyan-800" /></a>
+            <a href = "https://github.com/AryanAdlakha"><FiGithub color = "cyan-800" /></a>
+            <a href = "https://www.instagram.com/aryan_adlakha1/"><FiInstagram color = "cyan-800" /></a>
           </div>
           <div className='relative flex justify-center mx-auto'>
             <Image src = {aryan} className = "rounded-full w-80 h-80 mt-20" />
           </div>
         </section>
-            <h3 className='text-3xl p-3 mt-5 text-center text-white'>Experience</h3>
+            {/* <h3 className='text-3xl p-3 mt-5 text-center text-white'>Experience</h3>
         <section className='flex justify-center text-white'>
         <motion.div 
                     whileHover={{ scale: 1.05 }}
@@ -63,11 +63,11 @@ export default function Home() {
                         <Image className="h-10 w-10 rounded-xl" src={tedx}/>
                         <div className='text-xl font-semibold mx-2'>Tedx SRMIST</div>
                       </div>
-                      <div>September 2020 - Presenet</div>
+                      <div>September 2020 - Present</div>
                       <div>
                         <ul>
-                          <li>Same as down</li>
-                          <li>Loda</li>
+                          <li><b>Member</b></li>
+                          <li>Content Development</li>
                         </ul>
                       </div>
                     </div>
@@ -85,16 +85,16 @@ export default function Home() {
                         <Image className="h-10 w-10 rounded-xl" src={sixpm}/>
                         <div className='text-xl font-semibold mx-2'>The Six PM Show</div>
                       </div>
-                      <div>September 2020 - Presenet</div>
+                      <div>September 2020 - Present</div>
                       <div>
                         <ul>
-                          <li>Same as down</li>
-                          <li>Loda</li>
+                          <li><b>Technical Associate</b></li>
+                          <li></li>
                         </ul>
                       </div>
                     </div>
                   </motion.div>
-        </section>
+        </section> */}
       </main>
     </div>
   )
