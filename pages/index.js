@@ -45,7 +45,7 @@ export default function Home() {
             <a href = "https://www.instagram.com/aryan_adlakha1/"><FiInstagram color = "cyan-800" /></a>
           </div>
           <div className='relative flex justify-center mx-auto'>
-            <Image src = {aryan} className = "rounded-full w-80 h-80 mt-20" />
+            <Image src = {aryan} className = "rounded-full w-80 h-80 mt-20 mb-10" />
           </div>
         </section>
             {/* <h3 className='text-3xl p-3 mt-5 text-center text-white'>Experience</h3>
